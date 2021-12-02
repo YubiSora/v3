@@ -2747,7 +2747,7 @@ for (let i of ownerNumber) {
 const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 ini_list.push({
 "displayName": `Developer HoshiBot`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=+6289674545497:+62895613027623\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 alpha.sendMessage(from, {
@@ -2791,7 +2791,7 @@ case 'scbot':
 anu = `──────────────────
 NOTE : _DILARANG JUAL SC BOT_
 ──────────────────
-_BASE : DCODE DENPA_
+_BASE : HoshiBot
 _SC ORI : HoshiBot_
 _SESEPUH : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
